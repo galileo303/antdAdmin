@@ -9,6 +9,7 @@ export const routeConfigs = [
     path: '/dashboard/analysis',
     component: () => import('../view/Dashboard/Analysis'),
     models: ['chart'],
+
   },
   {
     path: '/dashboard/monitor',
